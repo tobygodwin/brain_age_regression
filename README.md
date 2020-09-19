@@ -1,6 +1,6 @@
 # Age regression from brain MRI
 
-This notebook was produced as part of a team of 3 and formed part of the submission for an  Coursework for a course in Machine Learning for Imaging.
+This notebook was produced as part of a team of 3 and formed part of the submission fo the Machine Learning for Imaging course during my MSc in AI.
  The coursework provided data and high level guidance on strategies. However, the substantive methods were implemented independently.
 
 Text in <em>italics</em> are taken from the coursework information.
