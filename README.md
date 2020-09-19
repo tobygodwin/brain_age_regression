@@ -10,3 +10,17 @@ Text in <em>italics</em> are taken from the coursework information.
 The objective for the coursework is to implement different supervised learning approaches for age regression from brain MRI. We provided data from a total of 652 healthy subjects, that is split into different development sets and a held-out test set on which you will evaluate your final prediction accuracy.
 
 Each approach will require a processing pipeline with different components that you will need to implement using methods that were discussed in the lectures and tutorials. There are three dedicated parts in the Jupyter notebook for each approach which contain some detailed instructions and some helper code. </em>
+
+Three appraoches were taken, each approaching the task in different ways - from extracting domain specific features, to training a fully end-to-end model. The results of the three methods are compared. 
+
+### A: Extract features using segmentation and apply regression
+
+This technique trained a CNN-based model to segment a brain MRI into 3 tissues. The volumes of each tissue were then manually calculated using the images' metadata, to be used as features  in the regression. 
+
+### B: Perform dimenionality reduction on MRI, and apply regression. 
+
+This technique extracted abstract features from the MRI using PCA. Regression was performed on the low-dimensional features returned by PCA.
+
+### C: Using CNN to predict age directly from MRI
+
+A CNN architecture was trained to predict age directly from the MRI. Feature extraction and regression wis captured in the neural network architecture. The CNN learns highly representative, non-linear features of the MRI scan, from which age can be estimated. 
