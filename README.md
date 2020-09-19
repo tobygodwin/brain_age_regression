@@ -11,7 +11,7 @@ The objective for the coursework is to implement different supervised learning a
 
 Each approach will require a processing pipeline with different components that you will need to implement using methods that were discussed in the lectures and tutorials. There are three dedicated parts in the Jupyter notebook for each approach which contain some detailed instructions and some helper code. </em>
 
-Three appraoches were taken (A,B,C), each approaching the task in different ways - from extracting domain specific features, to training a fully end-to-end model. The results of the three methods are compared. 
+Three appraoches were taken (A,B,C), each approaching the task in different ways - from extracting domain specific features, to training a fully end-to-end model. The results of the three methods are compared. Please note data is not included for ethical reasons.
 
 ### A: Extract features using segmentation and apply regression
 
